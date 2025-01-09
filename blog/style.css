@@ -39,8 +39,8 @@ header {
 
 
 img {
-    width: 100%;  
-    max-width: 150px;  
+    width: 200%;  
+    max-width: 200px;  
     height: auto;  
     display: block;
     margin: 0 auto;  
