@@ -8,16 +8,16 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #176c80;  /* Cor de fundo principal */
-    color: #333;  /* Cor do texto */
+    background-color: #176c80;  
+    color: #333; 
     line-height: 1.6;
-    padding-bottom: 50px;  /* Espaço para o footer fixo */
+    padding-bottom: 50px;  
 }
 
 
 header {
-    background-color: #0a4e56;  /* Cor mais escura para contraste */
-    color: white;  /* Texto branco para contrastar com o fundo */
+    background-color: #0a4e56; 
+    color: white;  
     padding: 20px;
     text-align: center;
 }
@@ -26,15 +26,15 @@ header {
 .content {
     padding: 20px;
     margin: 20px;
-    background-color: #ffffff;  /* Fundo branco para contraste */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Sombra mais suave */
-    border-radius: 8px;  /* Bordas arredondadas */
+    background-color: #176c80;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;  
 }
 
 .content h2 {
     color: #333;
-    font-size: 1.8rem;  /* Ajuste no tamanho da fonte do título */
-    margin-bottom: 10px;  /* Espaçamento abaixo do título */
+    font-size: 1.8rem; 
+    margin-bottom: 10px;  
 }
 
 
