@@ -17,7 +17,7 @@ body {
 
 header {
     background-color: #0a4e56; 
-    color: white;  
+    color: #176c80; 
     padding: 20px;
     text-align: center;
 }
@@ -51,7 +51,7 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
-    color: white;
+    color: #176c80;
     position: fixed;
     bottom: 0;
     left: 0;
