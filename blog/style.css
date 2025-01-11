@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #176c80;  
+    background-color: darkgray;  
     color: #333; 
     line-height: 1.6;
     padding-bottom: 50px;  
@@ -16,7 +16,7 @@ body {
 
 
 header {
-    background-color: #0a4e56;  
+    background-color: #2b5b70;  
     color: white;  
     padding: 20px;
     text-align: center;
@@ -25,7 +25,7 @@ header {
 .content {
     padding: 15px;
     margin: 15px;
-    background-color: #ffffff; 
+    background-color: darkgray; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
     border-radius: 8px;  
 }
@@ -37,8 +37,8 @@ header {
 }
 
 img {
-    width: 300%;  
-    max-width: 350px; 
+    width: 200%;  
+    max-width: fit-content;; 
     height: auto; 
     display: block;
     margin: 0 auto;  
