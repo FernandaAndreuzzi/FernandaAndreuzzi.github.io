@@ -44,50 +44,6 @@ img {
     margin: 0 auto;  
 }
 
-    .elaborate-button {
-      background-color: #3498db; /* Cor de fundo azul */
-      color: white; /* Cor do texto */
-      padding: 15px 30px; /* Espaçamento interno */
-      font-size: 18px; /* Tamanho da fonte */
-      border: 2px solid transparent; /* Borda transparente */
-      border-radius: 50px; /* Bordas arredondadas */
-      text-transform: uppercase; /* Texto em maiúsculas */
-      cursor: pointer; /* Cursor de mão */
-      position: relative; /* Necessário para o efeito de sombra */
-      overflow: hidden; /* Impede que os efeitos saiam do botão */
-      transition: all 0.3s ease; /* Transições suaves */
-    }
-
-   
-    .elaborate-button:hover {
-      background-color: #2980b9; /* Cor de fundo ao passar o mouse */
-      border-color: #2980b9; /* Cor da borda ao passar o mouse */
-    }
-
-    
-    .elaborate-button::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 300%;
-      height: 300%;
-      background-color: rgba(255, 255, 255, 0.2); /* Cor do brilho */
-      border-radius: 50%; /* Deixa o brilho redondo */
-      transition: all 0.3s ease; /* Transição suave */
-      transform: translate(-50%, -50%) scale(0); /* Inicia fora do botão */
-    }
-
-    /* Efeito de brilho no hover */
-    .elaborate-button:hover::before {
-      transform: translate(-50%, -50%) scale(1); /* Expande o brilho */
-    }
-
-    
-    .elaborate-button:active {
-      transform: scale(0.98); /* Diminui o botão quando pressionado */
-    }
-
 
 footer {
     text-align: center;
