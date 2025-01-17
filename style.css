@@ -1,16 +1,19 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: darkgray;  
-    color: #333; 
+    background-color: #f4f4f4; /* cor de fundo mais suave */
+    color: #333;
     line-height: 1.6;
-    padding-bottom: 50px;  
+    padding-bottom: 50px;  /* garante que o rodapé não sobreponha conteúdo */
 }
+
 
 header {
     background-color: #2b5b70;  
@@ -19,10 +22,11 @@ header {
     text-align: center;
 }
 
+
 .content {
     padding: 15px;
     margin: 15px;
-    background-color: darkgray; 
+    background-color: #fff; /* tom mais claro para o fundo */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
     border-radius: 8px;  
 }
@@ -32,6 +36,7 @@ header {
     font-size: 1.8rem; 
     margin-bottom: 10px;  
 }
+
 
 .navbar-container {
     display: flex;
@@ -61,6 +66,7 @@ header {
     font-size: 18px;
 }
 
+
 .navbar-toggle {
     display: none;
     background-color: #333;
@@ -70,7 +76,7 @@ header {
     cursor: pointer;
 }
 
-/* Estilos responsivos */
+
 @media (max-width: 768px) {
     .navbar-links {
         display: none;
@@ -90,6 +96,7 @@ header {
     }
 }
 
+
 footer {
     text-align: center;
     padding: 10px;
@@ -99,5 +106,6 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    font-size: 0.9rem;  
+    font-size: 0.9rem;
+    z-index: 10; /* garante que o rodapé não sobreponha o conteúdo */
 }
