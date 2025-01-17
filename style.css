@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
     background-color: #f4f4f4; 
     color: #333;
     line-height: 1.6;
@@ -15,10 +17,10 @@ body {
 }
 
 .rectangleHome {
-            width: 300px; 
-            height: 200px; 
+            width: auto; 
+            height: auto; 
             background-color: #gray;
-            color: white;
+            color: #333;
             padding: 20px; 
             border-radius: 10px; 
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
