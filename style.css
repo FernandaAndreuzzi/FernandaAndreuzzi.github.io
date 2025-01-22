@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: white;
     color: #333;
     line-height: 1.6;
     padding-bottom: 50px;
@@ -27,7 +27,11 @@ h1{
 .rectangleHome {
     display: flex;
     align-items: center;  
-    justify-content: space-between;  
+    justify-content: space-between; 
+    background-color: #f4f4f4;
+    border: 2px solid #f4f4f4;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 img {
