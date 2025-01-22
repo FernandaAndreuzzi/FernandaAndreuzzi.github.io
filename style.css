@@ -12,8 +12,8 @@ body {
     color: #333;
     line-height: 1.6;
     padding-bottom: 50px;
-    text-align: center;
-    margin: 0;
+    text-align: left;
+    margin-left: 20px;
 
 }
 
@@ -21,6 +21,7 @@ h1{
     font-size: 4vw;
     margin: 0;
     text-align: left;
+    margin-left: 20px;
     color: #333;
 }
 
